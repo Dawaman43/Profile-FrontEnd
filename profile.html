@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="img/logo.png" alt="DMedia Logo" class="logo_img">
+        <span class="logo_text">DMedia</span>
+      </a>
+    </div>
+
+    <div class="inbox">
+      <a href="#">
+        <img src="img/inbox.png" alt="Inbox" class="inbox_img">
+        <span class="inbox_messages_count">5</span>
+      </a>
+    </div>
+
+    <div class="notification">
+      <a href="#">
+        <img src="img/notification.png" alt="Notifications" class="notification_img">
+        <span class="notification_messages_count">7</span>
+      </a>
+    </div>
+
+    <div class="settings">
+      <a href="#">
+        <img src="img/settings.png" alt="Settings" class="settings_img">
+      </a>
+    </div>
+  </header>
+
+  <nav class="settings_nav">
+    <a href="#">
+      <img src="img/user.png" alt="account-icon" class="account_setting_img">
+      <span class="account_setting">Account Setting</span>
+    </a>
+    <a href="#">
+      <img src="img/insurance.png" alt="privacy-icon" class="privacy_security_img">
+      <span class="privacy_security">Privacy & Security</span>
+    </a>
+    <a href="#">
+      <img src="img/power-off.png" alt="logout-icon" class="logout_img">
+      <span class="logout">Logout</span>
+    </a>
+    <a href="#">
+      <img src="img/language.png" alt="language-icon" class="language_img">
+      <span class="language">Language & Region</span>
+    </a>
+    <a href="#">
+      <img src="img/customer-support.png" alt="support-icon" class="support_img">
+      <span class="support">Support & Help Center</span>
+    </a>
+  </nav>
+
+  <main class="container">
+    <section class="personal_info">
+      <h1 class="profile_text">Profile Information</h1>
+      <img src="img/profile.jpg" alt="Profile Picture" class="profile_pic">
+      <p><b>Bio:</b> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+      <p><b>First Name:</b> <span>Dawit</span></p>
+      <p><b>Last Name:</b> <span>Worku</span></p>
+      <p><b>Birth Date:</b> <span>03/01/2003</span></p>
+    </section>
+
+    <section class="edit_personal_info">
+      <h1 class="edit_profile">Edit Profile</h1>
+      <form>
+        <div class="form-group">
+          <label for="profile_pic">Profile Picture:</label>
+          <input type="file" id="profile_pic" name="profile_pic" class="edit_profile_pic">
+        </div>
+        <div class="form-group">
+          <label for="bio">Bio:</label>
+          <textarea id="bio" name="bio" class="edit_bio"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" class="edit_first_name">
+        </div>
+        <div class="form-group">
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name" class="edit_last_name">
+        </div>
+        <div class="form-group">
+          <label for="birth_date">Birth Date:</label>
+          <input type="date" id="birth_date" name="birth_date" class="edit_birth_date">
+        </div>
+        <button type="submit" class="save_button">Save Changes</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
