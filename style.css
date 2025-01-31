@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ a {
   color: inherit;
 }
 
-/* Header Styles */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,7 @@ header img {
 }
 
 header img:hover {
-  transform: scale(1.2); /* Enlarge icons on hover */
+  transform: scale(1.2); 
 }
 
 .logo {
@@ -69,7 +69,7 @@ header img:hover {
   border-radius: 50%;
 }
 
-/* Settings Navigation */
+
 .settings_nav {
   display: none;
   flex-direction: column;
@@ -102,7 +102,7 @@ header img:hover {
   margin-right: 10px;
 }
 
-/* Container Styles */
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -110,7 +110,7 @@ header img:hover {
   gap: 20px;
 }
 
-/* Personal Info Section */
+
 .personal_info, .edit_personal_info {
   background-color: white;
   padding: 20px;
@@ -121,7 +121,7 @@ header img:hover {
 }
 
 .personal_info:hover, .edit_personal_info:hover {
-  transform: translateY(-10px); /* 3D lift effect */
+  transform: translateY(-10px); 
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -145,7 +145,7 @@ header img:hover {
   color: #333;
 }
 
-/* Edit Profile Section */
+
 .edit_profile_pic {
   width: 100px;
   height: 100px;
@@ -195,10 +195,10 @@ header img:hover {
 
 .save_button:hover {
   background-color: #0056b3;
-  transform: scale(1.05); /* Button scale effect */
+  transform: scale(1.05); 
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
